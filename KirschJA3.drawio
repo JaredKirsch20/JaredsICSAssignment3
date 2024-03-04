@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T14:49:41.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="yFlRMKEXQf7HwT-Q3NOL" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T14:55:16.854Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="SEj6XlZ072CEWlaKikzd" version="24.0.1" type="github">
   <diagram name="Page-1" id="QCnrgxPeKVAtoiX1jV0b">
-    <mxGraphModel dx="2484" dy="1518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,13 +19,13 @@
         <mxCell id="JyriEMfmjadqsh-ZED06-5" value="AccountType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="421" y="-81" width="418" height="271" as="geometry" />
         </mxCell>
-        <mxCell id="JyriEMfmjadqsh-ZED06-6" value="accountType : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-5" vertex="1">
+        <mxCell id="JyriEMfmjadqsh-ZED06-6" value="accountNum : String&lt;div&gt;balance : double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-5" vertex="1">
           <mxGeometry y="26" width="418" height="97" as="geometry" />
         </mxCell>
         <mxCell id="JyriEMfmjadqsh-ZED06-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JyriEMfmjadqsh-ZED06-5" vertex="1">
           <mxGeometry y="123" width="418" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JyriEMfmjadqsh-ZED06-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-5" vertex="1">
+        <mxCell id="JyriEMfmjadqsh-ZED06-8" value="getAccountNumber(): String&amp;nbsp;&lt;div&gt;setAccountNumber(accountNumber: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;getBalance(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;setBalance(balance: double): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-5" vertex="1">
           <mxGeometry y="131" width="418" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JyriEMfmjadqsh-ZED06-9" value="Service" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="JyriEMfmjadqsh-ZED06-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JyriEMfmjadqsh-ZED06-9" vertex="1">
           <mxGeometry y="124" width="356" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JyriEMfmjadqsh-ZED06-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-9" vertex="1">
+        <mxCell id="JyriEMfmjadqsh-ZED06-12" value="getService(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JyriEMfmjadqsh-ZED06-9" vertex="1">
           <mxGeometry y="132" width="356" height="132" as="geometry" />
         </mxCell>
         <mxCell id="MxI-1oee2H2ZmX-ZESYG-1" value="PersonalAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
