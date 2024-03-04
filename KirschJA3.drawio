@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T21:11:12.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="6PsaesYdrcu4e10niU99" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T21:14:07.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="FsIdctkF168rbTAu-pzD" version="24.0.1" type="github">
   <diagram name="Page-1" id="QCnrgxPeKVAtoiX1jV0b">
-    <mxGraphModel dx="2439" dy="1346" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="1204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="-oRsj191uH-BrxDwQpNv-30" value="RegInvestment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="988" y="97" width="227" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="-oRsj191uH-BrxDwQpNv-32" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-30" vertex="1">
+        <mxCell id="-oRsj191uH-BrxDwQpNv-32" value="interestRate : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-30" vertex="1">
           <mxGeometry y="26" width="227" height="79" as="geometry" />
         </mxCell>
         <mxCell id="-oRsj191uH-BrxDwQpNv-6" value="BChequing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -112,19 +112,19 @@
         <mxCell id="-oRsj191uH-BrxDwQpNv-39" value="TaxFreeInvestment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1272" y="97" width="278" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-oRsj191uH-BrxDwQpNv-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-39" vertex="1">
+        <mxCell id="-oRsj191uH-BrxDwQpNv-40" value="maxAnnualGive : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-39" vertex="1">
           <mxGeometry y="26" width="278" height="74" as="geometry" />
         </mxCell>
         <mxCell id="-oRsj191uH-BrxDwQpNv-41" value="Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="988" y="226" width="221" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="-oRsj191uH-BrxDwQpNv-42" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-41" vertex="1">
+        <mxCell id="-oRsj191uH-BrxDwQpNv-42" value="interestRate : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-41" vertex="1">
           <mxGeometry y="26" width="221" height="83" as="geometry" />
         </mxCell>
         <mxCell id="-oRsj191uH-BrxDwQpNv-43" value="Morgage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1268" y="226" width="282" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="-oRsj191uH-BrxDwQpNv-44" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-43" vertex="1">
+        <mxCell id="-oRsj191uH-BrxDwQpNv-44" value="interestRate : double&lt;div&gt;paymentDue : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-oRsj191uH-BrxDwQpNv-43" vertex="1">
           <mxGeometry y="26" width="282" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VuN4ocTR0DAi9A-gGJiS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JyriEMfmjadqsh-ZED06-4" target="-oRsj191uH-BrxDwQpNv-1">
